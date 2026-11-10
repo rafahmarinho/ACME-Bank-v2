@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  // Banking screens are per-user and fully dynamic, so we use the classic
+  // dynamic rendering model instead of Cache Components.
+  cacheComponents: false,
   turbopack: {
     rules: {
       "*.css": {
@@ -11,6 +11,9 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  experimental: {
+    serverActions: { bodySizeLimit: "5mb" },
   },
 };
 

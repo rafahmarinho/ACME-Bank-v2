@@ -1,0 +1,1 @@
+-- Demo users and data are created by `pnpm db:seed` (scripts/seed.ts), which uses the Auth admin API.
