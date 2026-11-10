@@ -1,0 +1,127 @@
+1
+00:00:00,000 --> 00:00:01,666
+Welcome to ACME Bank —
+
+2
+00:00:01,666 --> 00:00:05,299
+a fully working digital bank built with Next.js,
+
+3
+00:00:05,299 --> 00:00:10,296
+React and Supabase. The public site even lists every fee up front.
+
+4
+00:00:11,011 --> 00:00:13,928
+Customers sign in with email and password.
+
+5
+00:00:13,928 --> 00:00:18,235
+For the demo, this panel fills in one of six seeded customers.
+
+6
+00:00:18,937 --> 00:00:22,489
+Olivia's overview shows her total and available balance,
+
+7
+00:00:22,489 --> 00:00:25,534
+a sixty-day balance chart, spending by category,
+
+8
+00:00:25,534 --> 00:00:26,929
+and upcoming payments.
+
+9
+00:00:27,640 --> 00:00:32,433
+In Accounts, two months of transactions can be searched and filtered
+
+10
+00:00:32,433 --> 00:00:35,464
+by account, status, type, category or date.
+
+11
+00:00:36,168 --> 00:00:38,950
+Each account keeps a double-entry ledger,
+
+12
+00:00:38,950 --> 00:00:41,867
+with debits, credits and a running balance,
+
+13
+00:00:41,867 --> 00:00:43,224
+all stored in cents.
+
+14
+00:00:43,933 --> 00:00:46,237
+Sending money takes three steps.
+
+15
+00:00:46,237 --> 00:00:49,117
+Before she confirms, ACME shows the fee,
+
+16
+00:00:49,117 --> 00:00:52,069
+the total and when the money will arrive.
+
+17
+00:00:52,783 --> 00:00:56,334
+On the Cards page, she can lock her card instantly,
+
+18
+00:00:56,334 --> 00:00:58,423
+or adjust limits and controls.
+
+19
+00:00:59,130 --> 00:01:02,526
+Statements are available for any period,
+
+20
+00:01:02,526 --> 00:01:03,714
+as PDF or CSV.
+
+21
+00:01:04,427 --> 00:01:08,867
+Support tickets keep the whole conversation with the bank's team in one thread.
+
+22
+00:01:09,582 --> 00:01:13,830
+On a phone, the side menu turns into a bottom navigation bar.
+
+23
+00:01:14,583 --> 00:01:16,681
+Staff get their own workspace.
+
+24
+00:01:16,681 --> 00:01:19,478
+The operations overview tracks deposits,
+
+25
+00:01:19,478 --> 00:01:22,695
+pending settlements, reviews and open tickets.
+
+26
+00:01:23,401 --> 00:01:28,249
+Large transfers wait in the review queue until someone approves or rejects them.
+
+27
+00:01:28,954 --> 00:01:32,889
+Admins drive the simulation: trigger scenarios like a fraud alert,
+
+28
+00:01:32,889 --> 00:01:36,466
+and move the bank clock forward to settle pending transfers.
+
+29
+00:01:37,179 --> 00:01:39,723
+Every action is recorded in the event log,
+
+30
+00:01:39,723 --> 00:01:42,267
+and everything stays saved after a reload.
+
+31
+00:01:42,972 --> 00:01:45,987
+That's ACME Bank: accounts, transfers,
+
+32
+00:01:45,987 --> 00:01:49,716
+cards, statements and operations, in one place.
